@@ -1,0 +1,4 @@
+build/
+*.so
+*_wrap.cpp
+convex_sampler.py
