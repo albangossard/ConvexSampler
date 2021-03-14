@@ -16,7 +16,7 @@ tic=time.time()
 hull_cv = ConvexHull(points)
 print('nb vertices = %i'%hull_cv.vertices.shape[0])
 print('nb faces = %i'%hull_cv.simplices.shape[0])
-print('ConvexHull computating time ',time.time()-tic)
+print('ConvexHull computing time ',time.time()-tic)
 
 box=np.array([np.min(points, axis=0), np.max(points, axis=0)])
 
